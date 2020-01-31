@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+ umbraco_docker_test:
+     image: umbracodockertest
+     build:
+       context: .\Umbraco_Docker_Test
+       dockerfile: Dockerfile

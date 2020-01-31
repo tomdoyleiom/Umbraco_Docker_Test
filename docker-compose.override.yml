@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  umbraco_docker_test:
+    ports:
+      - "80"
